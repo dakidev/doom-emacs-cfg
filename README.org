@@ -13,7 +13,7 @@ Essa é a parte mais fácil, podemos instalar tudo com somente um comando:
 ** Instalação do Doom Emacs
 Para a instalação do *Doom Emacs*, é necessário clonar o repositório do GitHub:
 
-~git clone --depth 1 https://github.com/hlissner/doom-emacs .emacs.d~
+~git clone --depth 1 https://github.com/hlissner/doom-emacs .emacs.d/~
 
 Após clonar, basta instalar o Doom Emacs com o comando:
 
