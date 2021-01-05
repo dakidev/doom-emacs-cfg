@@ -13,11 +13,11 @@ Essa é a parte mais fácil, podemos instalar tudo com somente um comando:
 ** Instalação do Doom Emacs
 Para a instalação do *Doom Emacs*, é necessário clonar o repositório do GitHub:
 
-~git clone --depth 1 https://github.com/hlissner/doom-emacs ~~/.emacs.d~
+~git clone --depth 1 https://github.com/hlissner/doom-emacs .emacs.d~
 
 Após clonar, basta instalar o Doom Emacs com o comando:
 
-~~/.emacs.d/bin/doom install~
+~.emacs.d/bin/doom install~
 
 E assim, o seu *Doom Emacs* estará instalado.
 * Configurando o Doom Emacs
@@ -37,6 +37,6 @@ Se por acaso já existir um diretório ~.doom.d/~ no seu home do usuário, basta
 
 Agora que já temos todas as configurações baixadas, só falta sincronizar o Doom Emacs com as configurações. Para isso, abra seu terminal e execute o comando:
 
-~~/.emacs.d/bin/doom sync~
+~.emacs.d/bin/doom sync~
 
 Espere a sincronização terminar, e abra seu Emacs. PRONTO! O seu editor já está pronto para ser usado!
