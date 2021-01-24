@@ -1,5 +1,5 @@
 #+TITLE: README
 #+AUTOR: Pedro Portales
 
-* AVISO: Esse repositório foi movido para esse link: https://gitlab.com/cafecomterminal/wms-config/herbstluftwm-cfg
+* AVISO: Esse repositório foi movido para esse link: https://gitlab.com/cafecomterminal/doom-emacs-cfg
 * Para receber os próximos commits a partir do dia 24/01/2020, será preciso clonar o repositório no GitLab. Agredeço a todos.
