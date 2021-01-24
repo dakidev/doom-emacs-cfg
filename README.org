@@ -1,42 +1,5 @@
-#+TITLE: Instalando e Configurando o Doom Emacs
+#+TITLE: README
 #+AUTOR: Pedro Portales
 
-* Introdução
-Essa é uma configuração feita por mim, com ajuda do [[https://gitlab.com/TodayTM][Today]]. Utilizei o pacote de fontes Nerd-Fonts-Complete, que no Arch Linux e baseados pode ser instalado pelo repositório AUR com o nome nerd-fonts-complete. Nas configurações, já vem incluído o elcord (plugin que mostra o Emacs como status no Discord), e o ORG-Mode.
-* Instalação do Doom Emacs
-** Introdução
-Esse processo de instalação também pode ser encontrado no [[https://github.com/hlissner/doom-emacs][repositório oficial do Doom Emacs]]. Irei reescrever aqui para ficar mais fácil e de melhor acesso.
-** Instalação de Dependências
-Essa é a parte mais fácil, podemos instalar tudo com somente um comando:
-
-~sudo pacman -S git emacs ripgrep fd~
-** Instalação do Doom Emacs
-Para a instalação do *Doom Emacs*, é necessário clonar o repositório do GitHub:
-
-~git clone --depth 1 https://github.com/hlissner/doom-emacs .emacs.d/~
-
-Após clonar, basta instalar o Doom Emacs com o comando:
-
-~.emacs.d/bin/doom install~
-
-E assim, o seu *Doom Emacs* estará instalado.
-* Configurando o Doom Emacs
-** Baixando as configurações...
-O primeiro passo para ter a configuração desse repositório, é cloná-lo. Para isso, é preciso estar no seu home do usuário. Caso não esteja, dê o comando:
-
-~cd~
-
-Agora que você está na sua home, clone o repositório com o comando:
-
-~git clone https://github.com/dakidev/doom-emacs-cfg.git~
-
-Se por acaso já existir um diretório ~.doom.d/~ no seu home do usuário, basta substituir pelo repositório clonado.
-
-** Deixando pronto pra usar
-*AVISO: Não se esqueça de instalar o pacote de fontes citado no início do readme. Sem ele, o Doom Emacs não irá funcionar, a não ser que você altere nas configurações.*
-
-Agora que já temos todas as configurações baixadas, só falta sincronizar o Doom Emacs com as configurações. Para isso, abra seu terminal e execute o comando:
-
-~.emacs.d/bin/doom sync~
-
-Espere a sincronização terminar, e abra seu Emacs. PRONTO! O seu editor já está pronto para ser usado!
+* AVISO: Esse repositório foi movido para esse link: https://gitlab.com/cafecomterminal/wms-config/herbstluftwm-cfg
+* Para receber os próximos commits a partir do dia 24/01/2020, será preciso clonar o repositório no GitLab. Agredeço a todos.
